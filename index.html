@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/normalize.css">
-  <link rel="stylesheet" href="./styles/style.css">
+  
+  <link rel="stylesheet" href="./pages/index.css">
 <title>Научиться учиться</title>
 </head>
 <body>
@@ -17,12 +17,12 @@
       </h1>  
       <p class="header__subtitle">
       Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни? 
-        <a class="header__link link_opacity" href="#">
+        <a class="header__link " href="#">
           Узнать&#8594;
         </a>
       </p>
       <img class="header__main-illustration" src="./images/header-image.png" alt="Изображение">
-      <div class="header__square-pic"></div>
+      <div class="header__square-pic rotation"></div>
     </header>
     <main class="content">
       <section class="description">
@@ -112,7 +112,7 @@
       </section>
       <section class='video'>
       
-        <h3 class='section-title video_section-title'>
+        <h3 class='section-title '>
       Видео на TED
       </h3>
       <p class='section-subtitle section-subtitle_video'>
@@ -120,13 +120,13 @@
       </p>
       <div class='video__iframes'>
         <iframe class='video__iframe'
-        width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU"  
-        frameborder="0" allow="accelerometer; encrypted-media;
+         src="https://www.youtube.com/embed/arj7oStGLkU"  
+         allow="accelerometer; encrypted-media;
         gyroscope; picture-in-picture" allowfullscreen>
         </iframe>
-        <iframe class='video_iframe' 
-        width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" 
-        frameborder="0" allow="accelerometer; 
+        <iframe class='video__iframe' 
+         src="https://www.youtube.com/embed/5MgBikgcWnY" 
+         allow="accelerometer; 
         encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
         </iframe>
        
@@ -155,7 +155,7 @@
         Выучить и не забыть.
       </p>
      
-      <a href='#' class='feinman__link link_opacity'>
+      <a href='#' class='feinman__link '>
       Подробнее &#8594;
       </a>
     <img class='feinman__illustration' src='./images/feynman.png' alt='Изображение'>
@@ -257,8 +257,8 @@
         </p>
       </div>
         <div class='khan__book-container'>
-          <img class='khan__book-pic ' src='./images/khan-book.jpg' alt='Обложка книги'>
-          <a class='khan__buy-link link_opacity' href='#'>Купить книгу&#8594;</a>
+          <div class='khan__book-pic'></div>
+          <span><a class='khan__buy-link ' href='#'>Купить книгу&#8594;</a></span>
         </div>
       
       </section>
@@ -352,7 +352,7 @@
           </p>
         </li>
       </ul>
-      <div class=' kaufman__triangle'>
+      <div class='kaufman__triangle rotation'>
       </div>
      </section>
      <section class='resources'>
@@ -363,10 +363,10 @@
      Больше материалов о техниках и лайфхаках обучения
      </p>
      <div class='resources__logo-zone'>
-      <a href='#' class='resources__link link_opacity'> <img class='resources__logo' src='./images/resources-arzamas.svg' alt='Лого ресурса'></a>
-      <a href='#' class='resources__link link_opacity'>  <img class='resources__logo' src='./images/resources-n1.svg' alt='Лого ресурса'></a>
-      <a href='#' class='resources__link link_opacity'>  <img class='resources__logo' src='./images/resources-strelka.svg' alt='Лого ресурса'></a>
-      <a href='#' class='resources__link link_opacity'>  <img class='resources__logo' src='./images/resources-polka.svg' alt='Лого ресурса'></a>
+      <a href='#' class='resources__link '> <img class='resources__logo' src='./images/resources-arzamas.svg' alt='Лого ресурса'></a>
+      <a href='#' class='resources__link '>  <img class='resources__logo' src='./images/resources-n1.svg' alt='Лого ресурса'></a>
+      <a href='#' class='resources__link'>  <img class='resources__logo' src='./images/resources-strelka.svg' alt='Лого ресурса'></a>
+      <a href='#' class='resources__link '>  <img class='resources__logo' src='./images/resources-polka.svg' alt='Лого ресурса'></a>
      </div>
      </section>
     </main>
@@ -378,15 +378,15 @@
       </div>
       <nav class='footer__column footer__column_content_info'>
        <h2 class='footer__column-heading'>О Практикуме</h2>
-       <ul class='footer__column-links'>
+       <ul class=' footer__column_content_info'>
          <li>
-           <a class='footer__column-links link_opacity' href='#'>Главная </a>
+           <a class='footer__column-links ' href='#'>Главная </a>
          </li>
          <li>
-          <a class='footer__column-links link_opacity' href='#'>Концепция </a>
+          <a class='footer__column-links ' href='#'>Концепция </a>
          </li>
          <li>
-          <a class='footer__column-links link_opacity' href='#'>Наставники</a>
+          <a class='footer__column-links ' href='#'>Наставники</a>
          </li>
        </ul>
       </nav>
@@ -394,18 +394,18 @@
       <h2 class='footer__column-heading'>
       Соцсети
       </h2>
-      <ul class='footer__column-links'>
+      <ul class='footer__column_content_social'>
         <li>
-          <a class='footer__column-links link_opacity' href='#'><img src='./images/facebook_color_white.svg' class='footer__social-icon' alt='Изображение'>
+          <a class='footer__column-links ' href='#'><img src='./images/facebook_color_white.svg' class='footer__social-icon' alt='Изображение'>
           Facebook
         </a>
         </li>
         <li>
-          <a class='footer__column-links link_opacity' href='#'><img src='./images/vk_color_white.svg' class='footer__social-icon' alt='Изображение'>
+          <a class='footer__column-links ' href='#'><img src='./images/vk_color_white.svg' class='footer__social-icon' alt='Изображение'>
           ВКонтакте </a>
         </li>
         <li>
-         <a class='footer__column-links link_opacity' href='#'> <img src='./images/instagram_color_white.svg' class='footer__social-icon' alt='Изображение'>
+         <a class='footer__column-links ' href='#'> <img src='./images/instagram_color_white.svg' class='footer__social-icon' alt='Изображение'>
           Instagram </a>
         </li>
       </ul>

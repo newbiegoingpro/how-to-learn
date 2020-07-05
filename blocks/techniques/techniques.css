@@ -1,9 +1,9 @@
-@import url(../cards/cards.css);
-@import url(../section-title/_techniques/section-title_techniques.css);
+
 .techniques{
     width: 80%;
     margin-top: 100px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
+    
   }

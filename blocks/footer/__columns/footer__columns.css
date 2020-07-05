@@ -1,6 +1,4 @@
-@import url(./_content/_content_copyright/footer__columns_content_copyright.css);
-@import url(./_content/_content_info/footer__columns_content_info.css);
-@import url(./_content/_content_social/footer__columns_content_social.css);
+
 .footer__columns{
     display: flex;
     flex-direction: row;

@@ -1,5 +1,7 @@
 .khan__book-pic{
-    max-height: 608px;
-    max-width: 620px;
-    background-size: contain;
+    
+  height: 620px;
+    width: 608px;
+    object-fit: cover;
+    background-image: url(../../../images/khan-book.jpg);
   }
